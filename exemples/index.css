@@ -93,3 +93,24 @@ header{
     text-decoration: none;
     color: wheat;
 }
+/*  */
+
+/* SECTION 3 */
+
+#section_3_titre{
+    color: #186CB0;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.forfaits_tarifs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ECECEC;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 0px 1px 1px 0px;
+}
