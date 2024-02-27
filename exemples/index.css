@@ -202,3 +202,12 @@ header{
     flex-direction: column;
     margin-left: 75px;
 }
+/*  */
+/* FOOTER */
+footer{
+    background-color: #186CB0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
