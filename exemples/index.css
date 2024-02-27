@@ -57,9 +57,8 @@ header{
     display: inline-flex;
     flex-direction: column;
     position: absolute;    
-    position: fixed;
-    right: 220px;
-    bottom: 170px;
+    right: 370px;
+    bottom: 570px;
     color: white;
     background-color: rgba(0, 0, 0, 0.466) ;    
 }
@@ -97,6 +96,10 @@ header{
 
 /* SECTION 3 */
 
+#section_3{
+    margin: 30px;
+}
+
 #section_3_titre{
     color: #186CB0;
     font-size: 25px;
@@ -113,4 +116,80 @@ header{
     margin-bottom: 10px;
     padding: 10px;
     box-shadow: 0px 1px 1px 0px;
+}
+
+/*  */
+
+/* SECTION 4 */
+#films{
+    color: #186CB0;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+
+#container_le_formateur{
+    background-color: rgb(221, 220, 220);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 40px;
+}
+#image_le_formateur{
+    width: 200px;
+}
+#titre_du_film{
+    font-weight: bold;
+}
+#div_le_formateur{
+    display: flex;
+    padding: 15px;
+
+}
+#infos_general_film{
+    display: flex;
+    
+}
+#description_image_le_foramteur{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    
+}
+#description_du_film{
+    padding: 15px;
+    width: 40%;
+}
+#comedie{
+    color: white;
+    background-color:#4F8B1A ;
+}
+
+#contaire_infos_film{
+    display: flex;
+    justify-content: space-around;
+    background-color: #186CB0;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin: 5px;
+    width: 20%;
+}
+#infos_parti_1{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+
+}
+.icon_section_4{
+    filter: invert(100%) grayscale(100%);
+}
+#complet{
+    color: black;
+    background-color: #FFEA61;
 }
