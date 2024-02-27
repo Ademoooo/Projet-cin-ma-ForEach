@@ -28,6 +28,9 @@ header{
     border-style: none;
     background-color: #186CB0 ;
 }
+.buttonHeader:hover{
+    font-weight: bold;
+}
 .iconHeader{
     filter: invert(100%) grayscale(100%);
 }
