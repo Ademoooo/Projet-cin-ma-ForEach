@@ -21,6 +21,9 @@ header{
     align-items: center;
     padding: 20px;
 }
+#header_tim{
+    width: 100%;
+}
 
 .buttonHeader{
     margin: 5px;
@@ -121,22 +124,19 @@ header{
 /*  */
 
 /* SECTION 4 */
+
 #films{
     color: #186CB0;
     font-size: 25px;
     font-weight: bold;
-    margin: 20px;
-    margin-top: 50px;
-    padding: 30px;
+    margin-left: 50px;
 }
-
 
 #container_le_formateur{
     background-color: rgb(221, 220, 220);
     display: flex;
     justify-content: space-between;
     padding: 15px;
-    margin: 40px;
 }
 #image_le_formateur{
     width: 200px;
@@ -150,7 +150,9 @@ header{
 
 }
 #infos_general_film{
+    background-color: #C4C4C4;
     display: flex;
+    margin: 15px;
     
 }
 #description_image_le_foramteur{
@@ -192,4 +194,11 @@ header{
 #complet{
     color: black;
     background-color: #FFEA61;
+}
+#section_4{
+    background-color: rgb(221, 220, 220);
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 75px;
 }
