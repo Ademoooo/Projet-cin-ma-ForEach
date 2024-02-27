@@ -25,18 +25,32 @@ header{
     width: 100%;
 }
 
-.buttonHeader{
-    margin: 5px;
+#buttonHeader1{
     color: white;
     border-style: none;
     background-color: #186CB0 ;
+    margin: 5px;
+} 
+#buttonHeader1:hover{
+    font-weight: bold;
 }
-.buttonHeader:hover{
+#buttonHeader2{
+    color: white;
+    border-style: none;
+    background-color: #186CB0 ;
+    margin: 5px;
+} 
+#buttonHeader2:hover{
     font-weight: bold;
 }
 .iconHeader{
     filter: invert(100%) grayscale(100%);
 }
+@media only screen and (max-width: 680px) {    
+    #buttonHeader2{
+        display: none;
+    }
+    }
 
 /*  */
 
@@ -71,6 +85,17 @@ header{
     background-color: #D03737;
     opacity: none;
     width: 100%;
+}
+@media only screen and (max-width: 680px) {
+    #header_tim, #affiche_film, #section_1  {
+        display: none;
+    }
+
+}
+@media only screen and (min-width: 680px) and (max-width: 980px) {
+    #text_affiche_film, #header_tim, #section_1{
+        display: none;
+    }
 }
 
 /*  */
@@ -201,6 +226,25 @@ header{
     display: flex;
     flex-direction: column;
     margin-left: 75px;
+}
+@media only screen and (max-width: 680px) {
+    #div_le_formateur, #description_du_film, #container_le_formateur{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    #infos_general_film{
+        flex-direction: column;
+    }
+    #contaire_infos_film{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 680px) and (max-width: 980px) {
+    #contaire_infos_film{
+        width: 33%;
+    }
 }
 /*  */
 /* FOOTER */
