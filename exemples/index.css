@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: uniform;
+    src: url(/assets/fonts/Uniform.ttf);
+}
+body{
+    font-family: uniform;
+}
+/* header */
+#titre{
+    color: white;
+}
+header{
+    background-color: #186CB0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.buttonHeader{
+    margin: 5px;
+    color: white;
+    border-style: none;
+    background-color: #186CB0 ;
+}
+.iconHeader{
+    filter: invert(100%) grayscale(100%);
+}
+/*  */
