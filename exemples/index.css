@@ -10,6 +10,18 @@
 body{
     font-family: uniform;
 }
+#abonnez-vous{
+    background-color: #FFEA61;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#abonnez-vous button{
+    font-size: 30px;
+    border-style: none;
+    background-color: #FFEA61;
+}
 /* header */
 #titre{
     color: white;

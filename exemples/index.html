@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+
     <link rel="stylesheet" href="/exemples/index.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Le Formateur</title>
 </head>
 <body>
+    <div id="abonnez-vous">
+        <p> Abonnez-vous à ForEacch Cinéma pour 19€99/par mois ! </p>
+        <button id="mon_boutton" onclick="fermerDiv()">X</button>
+    </div>
     <header>
         <div>
             <p id="titre">FOREACH CINEMA</p>
@@ -91,7 +98,9 @@
                         <br>
                         <span>Sortie le 5 Mai 2024</span>
                         <br>
-                        <span>les etoiles</span>
+                        <div>
+                            <span class="material-icons" onclick="ajoutCoeur()" id="favorite">favorite_outline </span>
+                        </div>
                         <br>
                         <span id="comedie">Comédie</span>
                     </div>
@@ -149,7 +158,13 @@
                         <br>
                         <span>Sortie le 28 Avril 2024</span>
                         <br>
-                        <span>les etoiles</span>
+                        <div>
+                            <span class="material-icons" onclick="ajoutCoeur()" id="favorite">favorite_outline </span>
+                            <span class="material-icons" onclick="ajoutCoeur()" id="favorite">favorite_outline </span>
+                            <span class="material-icons" onclick="ajoutCoeur()" id="favorite">favorite_outline </span>
+                            <span class="material-icons" onclick="ajoutCoeur()" id="favorite">favorite_outline </span>
+                        </div>
+                    
                         <br>
                         <span id="comedie">Action</span>
                     </div>
